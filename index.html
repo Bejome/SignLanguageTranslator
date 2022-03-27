@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+
+    <!-- Landing page -->
     <div id="lead">
       <div id="lead-content">
         <img src="images/asl.png" alt="" id="cover-img">
@@ -15,12 +17,14 @@
         <button type="button" id="translate-info" class="btn btn-light btn-lg">Learn while translating!!</button>
       </div>
     </div>
+
+    <!--Main functionality-->
     <div id="about">
       <div class="container">
-
         <h2>Pick from our range of words of formal and informal greetings and farewells.</h2>
-        <h5>Phrase your own sentences and translate to sign language </h5>
+        <h5>Phrase your own sentences and translate from English to Finger spelling using sign language alphabet. </h5>
 
+        <!-- Accepting words-->
         <div class="row" id="row1">
             <ul>
               <li>Hello. How are you?</li>
@@ -30,7 +34,6 @@
               <li>Good­bye.</li>
             </ul>
         </div>
-
         <div class="row" id="row2">
           <ul>
             <li>Hi! How are you?</li>
@@ -42,20 +45,27 @@
           </ul>
         </div>
 
+        <!-- Area for user input-->
         <div class="row">
           <textarea id="input-text" rows=4 placeholder="Enter the text to translate"></textarea>
         </div>
+
+        <!-- Buttons for translate and clear-->
         <div  id="translate-row">
           <button type="button" id="btn-translate" class="btn btn-dark btn-lg">Translate</button>
           <button type="button" id="btn-clear" class="btn btn-dark btn-lg">Clear</button>
         </div>
+
+        <!-- Display of translated images-->
         <div id="translated-row">
           <div id="translatedAsl">
-
           </div>
         </div>
 
       </div>
+    </div>
+    <div id="bottom">
+
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
