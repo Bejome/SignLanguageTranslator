@@ -19,7 +19,7 @@ $('#btn-translate').click(function(){
   inValid=[];
   //check for and invalid words
   for(const word of textArray){
-    if(word!="" && wordsSupported.indexOf(word)<0){
+    if(word!="" && wordsSupported.indexOf(word.toLowerCase())<0){
       inValid.push(word);
       break;
     }
